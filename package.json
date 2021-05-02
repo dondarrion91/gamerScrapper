@@ -1,0 +1,19 @@
+{
+    "name": "gamerscrapper",
+    "version": "1.0.0",
+    "description": "Scrapper para verificar stock de pagina de compra gamer",
+    "main": "index.js",
+    "scripts": {
+        "ryzen5-4650G": "node ./ryzen4650G.js"
+    },
+    "author": "Julian Sanchez",
+    "license": "ISC",
+    "dependencies": {
+        "nodemailer": "^6.6.0",
+        "puppeteer": "^9.0.0",
+        "puppeteer-core": "^9.0.0"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    }
+}
